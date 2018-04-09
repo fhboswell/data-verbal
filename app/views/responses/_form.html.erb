@@ -1,0 +1,143 @@
+<%= form_with(model: @response, local: true) do |form| %>
+  
+
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">X</th>
+      <th scope="col">Y</th>
+      <th scope="col">Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><%= form.label :r11 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r11, options_for_select(['-', 'Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r12 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r12,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r13 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r13,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r21 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r21,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r21 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r21,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r22 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r22,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r23 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r23,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r24 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r24,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r25 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r25,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r26 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r26,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r27 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r27,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r28 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r28,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r31 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r31,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+     <tr>
+      <th scope="row"><%= form.label :r32 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r32,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+    </tr>
+    <tr>
+      <th scope="row"><%= form.label :r41 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r41,  options_for_select(['-', 'Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+     <tr>
+      <th scope="row"><%= form.label :r42 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r42,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+     <tr>
+      <th scope="row"><%= form.label :r51 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r51,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+     <tr>
+      <th scope="row"><%= form.label :r52 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r52,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+     <tr>
+      <th scope="row"><%= form.label :r53 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r53,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+     <tr>
+      <th scope="row"><%= form.label :r54 %></th>
+      <td>x</td>
+      <td>y</td>
+      <td><%= form.select :r54,  options_for_select(['-','Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate'])%></td>
+
+    
+  </tbody>
+</table>
+<style>
+
+th{
+  text-align: center;
+}
+
+  </style>
+
+  <div class="actions">
+    <%= form.submit "Submit", class: "btn btn-success" %>
+  </div>
+<% end %>

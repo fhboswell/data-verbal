@@ -1,0 +1,62 @@
+
+ <div class="row align-items-center">
+        <div class="col-xs-2 align-items-center">
+        </div>
+        <div class="col-xs-8 align-items-center">
+          <h3>Suppose: We are trying to select a house</h3>
+          <ul>
+          	
+  			<li>The left column contains the goodneess of the house in one respect</li>
+  			<li>The left column contains the goodneess of the house in another respect</li>
+  			<li>It is your job to fill out the third column with what the overall goodness of the house is</li>
+		  </ul>
+         
+
+        </div>
+    </div>
+
+
+<div class="site-wrapper">
+
+<div class="col-xs-4 align-items-center">
+        </div>
+        <div class="col-xs-4 align-items-center">
+          <%= render 'form', todo: @todo %>
+         
+
+        </div>
+
+
+</div>
+
+
+
+
+
+
+<style>
+
+h3{
+	text-align: center;
+}
+body {
+ 
+  text-align: left;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.col-xs-8{
+border: 1px solid black;
+      }
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+	padding-top: 50px;
+  text-align: center;
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  
+}
+</style>

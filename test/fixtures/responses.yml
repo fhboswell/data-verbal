@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  r11: MyString
+  r12: MyString
+  r13: MyString
+  r21: MyString
+  r22: MyString
+  r23: MyString
+  r24: MyString
+  r25: MyString
+  r26: MyString
+  r27: MyString
+  r28: MyString
+  r31: MyString
+  r32: MyString
+  r41: MyString
+  r42: MyString
+  r51: MyString
+  r52: MyString
+  r53: MyString
+  r54: MyString
+
+two:
+  r11: MyString
+  r12: MyString
+  r13: MyString
+  r21: MyString
+  r22: MyString
+  r23: MyString
+  r24: MyString
+  r25: MyString
+  r26: MyString
+  r27: MyString
+  r28: MyString
+  r31: MyString
+  r32: MyString
+  r41: MyString
+  r42: MyString
+  r51: MyString
+  r52: MyString
+  r53: MyString
+  r54: MyString
