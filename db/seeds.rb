@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Level.destroy_all
+values = [ 'Perfect', 'Slightly below perfect', 'Very good', 'Slightly above good', 'Good', 'Slightly below good', 'Above average', 'Slightly above average', 'Average', 'Slightly below average', 'Below average', 'Slightly above poor', 'Poor', 'Slightly below poor', 'Very poor', 'Slightly above inadequate', 'Inadequate']
+
+values.each do |value|
+  Level.create( value: value )
+end
