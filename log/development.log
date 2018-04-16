@@ -4571,3 +4571,34 @@ Processing by ResponsesController#new as HTML
 Completed 200 OK in 166ms (Views: 113.4ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-16 00:10:53 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (18.1ms)
+  Rendered responses/new.html.erb within layouts/application (20.9ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 348ms (Views: 306.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-16 00:13:12 -0700
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (5.6ms)
+  Rendered responses/new.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 93ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-16 00:13:21 -0700
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (6.7ms)
+  Rendered responses/new.html.erb within layouts/application (8.7ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
