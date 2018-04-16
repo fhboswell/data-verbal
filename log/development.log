@@ -4668,3 +4668,52 @@ Processing by ResponsesController#new as HTML
 Completed 200 OK in 177ms (Views: 149.7ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-16 13:50:20 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (238.0ms)
+Completed 200 OK in 252ms (Views: 243.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-16 13:50:22 -0700
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (3.2ms)
+  Rendered responses/new.html.erb within layouts/application (5.5ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 141ms (Views: 116.6ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/responses" for 127.0.0.1 at 2018-04-16 13:50:24 -0700
+Processing by ResponsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QXMIRIe30RS1NqHCz3r9qOjimw1Jauayxdu1sp5YpPsbNTqYGjdD/AF+dc6jN8J/qj+d8Dvi3+xy578HZI2lzg==", "response"=>{"r22"=>"-", "r26"=>"-", "r21"=>"-", "r41"=>"-", "r28"=>"-", "r42"=>"-", "r11"=>"-", "r51"=>"-", "r31"=>"-", "r32"=>"-", "r25"=>"-", "r13"=>"-", "r23"=>"-", "r24"=>"-", "r27"=>"-", "r12"=>"-"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (1.6ms)
+  Rendered responses/new.html.erb within layouts/application (3.8ms)
+  Rendered shared/_navigation.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 87.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/responses" for 127.0.0.1 at 2018-04-16 13:53:58 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ResponsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Lc24KwmD3ZHZo1R9geDC61BO+CK1ejyqeu28Y8SHMzl3i4r3lANPeW3rgHHtrf08EpP+38fyBfTN0bbWPlIyDA==", "response"=>{"r22"=>"-", "r26"=>"-", "r21"=>"-", "r41"=>"-", "r28"=>"-", "r42"=>"-", "r11"=>"-", "r51"=>"-", "r31"=>"-", "r32"=>"-", "r25"=>"-", "r13"=>"-", "r23"=>"-", "r24"=>"-", "r27"=>"-", "r12"=>"-"}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.7ms)[0m  [1m[32mINSERT INTO "responses" ("r11", "r12", "r13", "r21", "r22", "r23", "r24", "r25", "r26", "r27", "r28", "r31", "r32", "r41", "r42", "r51", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["r11", "-"], ["r12", "-"], ["r13", "-"], ["r21", "-"], ["r22", "-"], ["r23", "-"], ["r24", "-"], ["r25", "-"], ["r26", "-"], ["r27", "-"], ["r28", "-"], ["r31", "-"], ["r32", "-"], ["r41", "-"], ["r42", "-"], ["r51", "-"], ["created_at", "2018-04-16 20:53:58.747628"], ["updated_at", "2018-04-16 20:53:58.747628"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/done/index
+Completed 302 Found in 43ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/done/index" for 127.0.0.1 at 2018-04-16 13:53:58 -0700
+Processing by DoneController#index as HTML
+  Rendering done/index.html.erb
+  Rendered done/index.html.erb (214.9ms)
+Completed 200 OK in 220ms (Views: 219.5ms | ActiveRecord: 0.0ms)
+
+
