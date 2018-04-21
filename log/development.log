@@ -5126,3 +5126,236 @@ Processing by ResponsesController#new as HTML
 Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-21 11:39:58 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+Redirected to http://localhost:3000/done/index
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/done/index" for 127.0.0.1 at 2018-04-21 11:39:59 -0700
+Processing by DoneController#index as HTML
+  Rendering done/index.html.erb
+  Rendered done/index.html.erb (219.4ms)
+Completed 200 OK in 225ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 11:40:08 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (10.3ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-21 11:40:09 -0700
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (2.9ms)
+  Rendered responses/new.html.erb within layouts/application (5.4ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 137ms (Views: 112.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-21 11:40:43 -0700
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (2.5ms)
+  Rendered responses/new.html.erb within layouts/application (5.0ms)
+  Rendered shared/_navigation.html.erb (0.6ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 89ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 11:47:09 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (355.1ms)
+Completed 200 OK in 367ms (Views: 359.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/responses/new" for 127.0.0.1 at 2018-04-21 11:47:12 -0700
+Processing by ResponsesController#new as HTML
+  Rendering responses/new.html.erb within layouts/application
+  Rendered responses/_form.html.erb (3.1ms)
+  Rendered responses/new.html.erb within layouts/application (5.5ms)
+  Rendered shared/_navigation.html.erb (0.6ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 187ms (Views: 160.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 11:47:27 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (277.6ms)
+Completed 500 Internal Server Error in 282ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `verbal1_index' for #<#<Class:0x007fc7b0071eb0>:0x007fc7aacb6f78>
+Did you mean?  verbal1_index_url):
+    25:             <p class="lead">This questionnaire is designed to gather data about the way a human mind aggregates inputs. It will take less than 5 minutes of your time. Thank you!</p>
+    26:             <p class="lead">
+    27:              
+    28:               <%= link_to 'Take Survey', verbal1_index, class: 'btn btn-lg btn-secondary' %>
+    29:             </p>
+    30:           </div>
+    31:           <div class="mastfoot">
+  
+app/views/welcome/index.html.erb:28:in `_app_views_welcome_index_html_erb__2145398010856880163_70247770336740'
+app/controllers/welcome_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2018-04-21 11:47:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (11.5ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 11:47:43 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (229.4ms)
+Completed 500 Internal Server Error in 238ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007fc7b06e0508>:0x007fc7b06d2818>
+Did you mean?  format
+               formats
+               formats=
+               form_for
+               form_tag
+               form_with
+               fork):
+    562:   </style>
+    563: 
+    564:   <div class="actions">
+    565:     <%= form.submit "Submit", class: "btn btn-success" %>
+    566:   </div>
+    567:          
+    568: 
+  
+app/views/verbal1/index.html.erb:565:in `_app_views_verbal__index_html_erb__2007067918669927204_70247817610960'
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 11:48:37 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/done/index" for 127.0.0.1 at 2018-04-21 11:48:42 -0700
+Processing by DoneController#index as HTML
+  Rendering done/index.html.erb
+  Rendered done/index.html.erb (16.1ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 11:49:20 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (5.9ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 11:49:21 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 12:14:43 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (383.3ms)
+Completed 200 OK in 396ms (Views: 388.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 12:15:18 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (12.6ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 12:15:29 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (13.2ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 12:30:16 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 163ms (Views: 161.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 12:30:17 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 12:30:31 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 12:31:07 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 12:34:04 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal1/index" for 127.0.0.1 at 2018-04-21 12:36:27 -0700
+Processing by Verbal1Controller#index as HTML
+  Rendering verbal1/index.html.erb within layouts/application
+  Rendered verbal1/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
