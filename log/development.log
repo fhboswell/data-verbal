@@ -5443,3 +5443,81 @@ Processing by Verbal1Controller#index as HTML
 Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-21 22:14:12 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (314.5ms)
+Completed 200 OK in 324ms (Views: 318.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal2/index" for 127.0.0.1 at 2018-04-21 22:14:14 -0700
+Processing by Verbal2Controller#index as HTML
+  Rendering verbal2/index.html.erb within layouts/application
+  Rendered verbal2/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navigation.html.erb (0.2ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 139ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal2/index" for 127.0.0.1 at 2018-04-21 22:14:18 -0700
+Processing by Verbal2Controller#index as HTML
+  Rendering verbal2/index.html.erb within layouts/application
+  Rendered verbal2/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal2/index" for 127.0.0.1 at 2018-04-21 22:14:29 -0700
+Processing by Verbal2Controller#index as HTML
+  Rendering verbal2/index.html.erb within layouts/application
+  Rendered verbal2/index.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal3/index" for 127.0.0.1 at 2018-04-21 22:14:36 -0700
+Processing by Verbal3Controller#index as HTML
+  Rendering verbal3/index.html.erb within layouts/application
+  Rendered verbal3/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal3/index" for 127.0.0.1 at 2018-04-21 22:15:00 -0700
+Processing by Verbal3Controller#index as HTML
+  Rendering verbal3/index.html.erb within layouts/application
+  Rendered verbal3/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal3/index" for 127.0.0.1 at 2018-04-21 22:15:36 -0700
+Processing by Verbal3Controller#index as HTML
+  Rendering verbal3/index.html.erb within layouts/application
+  Rendered verbal3/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/verbal3/index" for 127.0.0.1 at 2018-04-21 22:16:52 -0700
+Processing by Verbal3Controller#index as HTML
+  Rendering verbal3/index.html.erb within layouts/application
+  Rendered verbal3/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
